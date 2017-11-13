@@ -1,0 +1,88 @@
+jobs:
+  jenkins-docker:
+    repository: git@github.com:difi/jenkins-docker
+    sshKey: ssh.git.difi.local
+  kontaktregister-statistikk-klient:
+    repository: git@github.com:difi/kontaktregister-statistikk-klient
+    sshKey: ssh.git.difi.local
+  idporten-oidc-client:
+    repository: git@github.com:difi/idporten-klient-oidc.git
+    sshKey: ssh.git.difi.local
+  krr-oauth2-server:
+    repository: git@git.difi.local:krr-oauth2-server
+    sshKey: ssh.git.difi.local
+  poc-statistics:
+    repository: git@github.com:difi/poc-statistics
+    sshKey: ssh.git.difi.local
+  eid-oidc-provider:
+    repository: git@git.difi.local:eid-oidc-provider
+    sshKey: ssh.git.difi.local
+  minid-on-the-fly:
+    repository: git@git.difi.local:minid-on-the-fly
+    sshKey: ssh.git.difi.local
+  eid-common-resilience:
+    repository: git@git.difi.local:eid-common-resilience.git
+    sshKey: ssh.git.difi.local
+  eid-common:
+    repository: git@git.difi.local:eid-common.git
+    sshKey: ssh.git.difi.local
+  krr:
+    repository: git@git.difi.local:krr.git
+    sshKey: ssh.git.difi.local
+  idporten:
+    repository: git@git.difi.local:idporten.git
+    sshKey: ssh.git.difi.local
+  idporten-admin:
+    repository: git@git.difi.local:idporten-admin.git
+    sshKey: ssh.git.difi.local
+  idporten-authlevel:
+    repository: git@git.difi.local:idporten-authlevel.git
+    sshKey: ssh.git.difi.local
+  idporten-app-dpi-reklame:
+    repository: git@git.difi.local:idporten-app-dpi-reklame.git
+    sshKey: ssh.git.difi.local
+  idporten-minid-updater:
+    repository: git@git.difi.local:idporten-minid-updater.git
+    sshKey: ssh.git.difi.local
+  idporten-pinkoder:
+    repository: git@git.difi.local:idporten-pinkoder.git
+    sshKey: ssh.git.difi.local
+  dine-kontaktopplysninger:
+    repository: git@git.difi.local:dine-kontaktopplysninger.git
+    sshKey: ssh.git.difi.local
+  dsf-gateway:
+    repository: git@git.difi.local:dsf-gateway.git
+    sshKey: ssh.git.difi.local
+  eid-level1-poc:
+    repository: git@git.difi.local:eid-level1-poc.git
+    sshKey: ssh.git.difi.local
+  eid-system-tests:
+    repository: git@git.difi.local:eid-system-tests.git
+    sshKey: ssh.git.difi.local
+  eid-pipeline-branch:
+    repository: git@git.difi.local:eid-pipeline-branch.git
+    sshKey: ssh.git.difi.local
+  eid-pipeline:
+    repository: git@git.difi.local:eid-pipeline.git
+    sshKey: ssh.git.difi.local
+  eid-log-writer:
+    repository: git@git.difi.local:eid-log-writer.git
+    sshKey: ssh.git.difi.local
+  eidas:
+    repository: git@git.difi.local:eidas.git
+    sshKey: ssh.git.difi.local
+  eid-maintenance:
+    repository: git@git.difi.local:eid-maintenance.git
+    sshKey: ssh.git.difi.local
+  eid-docker-maintenance:
+    repository: git@git.difi.local:eid-docker-maintenance.git
+    sshKey: ssh.git.difi.local
+  puppet_modules:
+    repository: git@eid-gitlab.dmz.local:puppet/puppet_modules
+    sshKey: ssh.git.difi.local
+  puppet_modules_oidc:
+    repository: git@eid-gitlab.dmz.local:puppet/puppet_modules_oidc
+    sshKey: ssh.git.difi.local
+  puppet_hiera:
+    repository: git@eid-gitlab.dmz.local:puppet/puppet_hiera
+    sshKey: ssh.git.difi.local
