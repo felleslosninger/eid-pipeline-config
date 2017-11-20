@@ -5,6 +5,9 @@ jobs:
   kontaktregister-statistikk-klient:
     repository: git@github.com:difi/kontaktregister-statistikk-klient
     sshKey: ssh.git.difi.local
+  idporten-innlogging-statistikk-klient:
+    repository: git@github.com:difi/idporten-innlogging-statistikk-klient
+    sshKey: ssh.git.difi.local
   idporten-oidc-client:
     repository: git@github.com:difi/idporten-klient-oidc.git
     sshKey: ssh.git.difi.local
