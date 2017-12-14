@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+#docker service scale --detach=false pipeline_jenkins=0
+echo "Pausing service and removing existing configuration..."
+docker service update --detach=false pipeline_jenkins --config-rm pipeline-jobs --replicas 0
+echo "Replacing configuration..."
+docker config rm pipeline-jobs
+docker config create pipeline-jobs jobs.yaml
+echo "Updating service with new configuration and resuming..."
+docker service update --detach=false pipeline_jenkins --config-add source=pipeline-jobs,target=/jobs.yaml --replicas 1
+#docker service scale --detach=false pipeline_jenkins=1
