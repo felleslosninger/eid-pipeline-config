@@ -1,4 +1,7 @@
 jobs:
+  jenkins-pipeline:
+    repository: git@github.com:difi/jenkins-pipeline
+    sshKey: ssh.git.difi.local
   jenkins-docker:
     repository: git@github.com:difi/jenkins-docker
     sshKey: ssh.git.difi.local
