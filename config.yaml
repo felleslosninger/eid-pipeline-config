@@ -1,0 +1,34 @@
+jira:
+  url: http://jira.difi.local
+  statuses:
+    open: 1
+    inProgress: 3
+    codeApproved: 10005
+    codeReview: 10012
+    manualVerification: 10009
+    manualVerificationOk: 10010
+  transitions:
+    start: 371
+    readyForCodeReview: 391
+    resumeWork: 301
+
+crucible:
+  url: http://fisheye.difi.local:8060
+  projectKey: CR
+
+docker:
+  host: tcp://eid-jenkins02.dmz.local:2376
+
+ssh:
+  knownHosts:
+    - github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+    - git.difi.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG4VYlrX7IlRq+O1lokYTp1oYe7vsIPAmm9uhDec2TVvCkPnSeNhJq9iCyRYCaaCxZLRfUjQdCNc6NvNyXdZb6k=
+    - eid-gitlab.dmz.local ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApaqpEGnJ/z4Ur+bgHhnpYCBCdyPuDMVxUplgVPaUTjCLEiEioU+LgZsr04pX6s9sqHbH+0+ggAizxpXQZJ4AOgyeSCwtZNpqX3jXdXMCXqjQgDY/Pxu1vi91PucNK8B4lwkrhed9Ze8iCzdKY5w1NZDpB6Auc+UL2I0HJNDIlrxenYXdqtK6udLyEv1eViGCOIPY1YJ1SjVxMWv2G4itdJDQrOqe6U3p5Ph3P810rtIh/q4Z1PbdS98Jvh3VewdMpQjqPSTskn+EsnlEGJf8vvJmsVsRol1X5bmU/mxIXsaySzPmKdH34hQFzdejdjp83FYRffV0OYhL8Ur9ZU+Apw==
+    - eid-jenkins02.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC1UgDT1mm3EJ2w90x2zeEVzxdFPxcqkp+a0N6+0WLgNgTLVFRt2/hSM48VfCaFQaOzVw8PfxVSIHtuunFry1qo=
+    - eid-jenkins03.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLLtI8VjTpcgoKoer2t8K3eFvT6/23ajAsT6U4tk5TaqDMteJzrE/p8v+XzcrMrWPaqdxZV4h+uLYv5VtyDeZRU=
+    - eid-test-oidc-provider.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMzEIRiGtC0hPPq9mDXqw+TCye5gzFGI8mouaeIMRaRwHhI5rh1PZ39SbzzOgpAT2hW8YRkwBYMN5qCZnfJ0KCI=
+    - eid-test-oidc-klient.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBhqhkaSU8DLfbTzM1nVZFIciooTYIluNkRdTznEqZGUP3I6YYW9OTQDP/8cgWhv22l3lVmFLSrsxgf0IsBXI1I=
+    - eid-oidc-provider.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLtZOtk+k07ET+seli2lXbKYSaCae0wnP/OyA+o84epOGuGU+zT69Jqo0Bugll/It1xJ8C+IJthd9XfnlAx4tOA=
+    - eid-test01.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKjTYi07cANNMTe0SwFEk6bq5VIp1inb2k1bUnL3bodhwUny9yG1amchjgvgmTol84niKETBOYVnGBqDh9UUNIs=
+    - eid-test-docker01.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIYFaQAAGYZMGs2nuTF1kSvU43HQk759zCbU4SMKr1je08/6AfgRmQ8MwVGb+glKplAOP4mD1La92Ltj2DjamNo=
+    - eid-prod-docker01.dmz.local ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCQ1MR4RdFoP7lNSI6sJW4b1p6+6GrCl5mUTQ4Fyqhsj7e8IFKyZS5/cUqhgu+z69y0d+5ZdZoy9gcnx1iDZCW0=
