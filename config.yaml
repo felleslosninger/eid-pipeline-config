@@ -19,9 +19,16 @@ crucible:
 docker:
   host: tcp://eid-jenkins02.dmz.local:2376
   registries:
-    staging: http://eid-jenkins02.dmz.local:8082
-    local: http://eid-jenkins02.dmz.local:8081
-    public: docker.io/difi
+    StagingLocal:
+      address: eid-jenkins02.dmz.local:8082
+      apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-stage
+    ProductionLocal:
+      address: eid-jenkins02.dmz.local:8081
+      apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker
+    StagingPublic:
+      address: docker.io/difi
+    ProductionPublic:
+      address: docker.io/difi
 
 ssh:
   knownHosts:
