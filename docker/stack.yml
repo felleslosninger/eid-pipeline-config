@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  pipeline-configurator:
+    image: ${REGISTRY}/pipeline-configurator:${VERSION}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    deploy:
+      restart_policy:
+        condition: none
+      placement:
+        constraints:
+          - node.role == manager

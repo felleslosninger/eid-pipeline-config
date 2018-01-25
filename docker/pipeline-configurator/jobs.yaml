@@ -71,6 +71,9 @@ jobs:
   eid-pipeline:
     repository: git@git.difi.local:eid-pipeline.git
     sshKey: ssh.git.difi.local
+  eid-pipeline-config:
+    repository: git@git.difi.local:eid-pipeline-config.git
+    sshKey: ssh.git.difi.local
   eid-log-writer:
     repository: git@git.difi.local:eid-log-writer.git
     sshKey: ssh.git.difi.local

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export REGISTRY=local
+export VERSION=latest
+
+docker build -t ${REGISTRY}/pipeline-configurator:${VERSION} docker/pipeline-configurator || exit 1
+docker stack deploy -c docker/stack.yml pipeline-configurator

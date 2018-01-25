@@ -3,6 +3,7 @@ jira:
   statuses:
     open: 1
     inProgress: 3
+    readyForVerification: 10717
     codeApproved: 10005
     codeReview: 10012
     manualVerification: 10009
@@ -10,7 +11,13 @@ jira:
   transitions:
     start: 371
     readyForCodeReview: 391
+    startVerification: 291
+    cancelVerification: 401
     resumeWork: 301
+    startManualVerification: 311
+    approveManualVerification: 51
+    closeWithoutStaging: 361
+    close: 341
 
 crucible:
   url: http://fisheye.difi.local:8060
@@ -22,13 +29,59 @@ docker:
     StagingLocal:
       address: eid-jenkins02.dmz.local:8082
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-stage
+      credentialsId: docker_registry_StagingLocal
     ProductionLocal:
       address: eid-jenkins02.dmz.local:8081
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker
+      credentialsId: docker_registry_ProductionLocal
     StagingPublic:
       address: docker.io/difi
+      credentialsId: docker_registry_StagingPublic
     ProductionPublic:
       address: docker.io/difi
+      credentialsId: docker_registry_ProductionPublic
+  swarms:
+    pipeline:
+      host: eid-jenkins02.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: ProductionLocal
+    eid-verification:
+      host: eid-test01.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: StagingLocal
+    eid-staging:
+      registry: ProductionLocal
+    statistics-staging:
+      host: eid-test-docker01.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: ProductionLocal
+    statistics:
+      host: eid-prod-docker01.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: ProductionLocal
+    oidc-provider-verification:
+      registry: ProductionPublic
+    oidc-provider-staging:
+      host: eid-test-oidc-provider.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: ProductionPublic
+    oidc-provider:
+      host: eid-oidc-provider.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: ProductionPublic
+
+puppet:
+  masters:
+    eid-staging:
+      host: eid-puppetmaster.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
 
 ssh:
   knownHosts:
