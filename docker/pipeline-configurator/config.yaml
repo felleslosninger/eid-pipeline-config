@@ -75,6 +75,10 @@ docker:
       user: jenkins
       sshKey: ssh.git.difi.local
       registry: ProductionPublic
+    public-delivery:
+      registry: ProductionPublic
+    local-delivery:
+      registry: ProductionLocal
 
 puppet:
   masters:
