@@ -8,6 +8,7 @@ jira:
     codeReview: 10012
     manualVerification: 10009
     manualVerificationOk: 10010
+    manualVerificationFailed: 10197
   transitions:
     start: 371
     readyForCodeReview: 391
@@ -17,6 +18,8 @@ jira:
     resumeWorkFromApprovedCode: 331
     startManualVerification: 311
     approveManualVerification: 51
+    retryManualVerificationFromSuccess: 441
+    retryManualVerificationFromFailure: 421
     closeWithoutStaging: 361
     close: 341
 
