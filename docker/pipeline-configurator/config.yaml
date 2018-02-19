@@ -8,7 +8,7 @@ jira:
     codeReview: 10012
     manualVerification: 10009
     manualVerificationOk: 10010
-    manualVerificationFailed: 10197
+    manualVerificationFailed: 10917
   transitions:
     start: 371
     readyForCodeReview: 391
