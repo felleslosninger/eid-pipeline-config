@@ -1,3 +1,7 @@
+jenkins:
+  url: http://eid-jenkins02.dmz.local
+  adminAddress: Jenkins &lt;utvtest@difi.no&gt;
+
 jira:
   url: http://jira.difi.local
   statuses:
