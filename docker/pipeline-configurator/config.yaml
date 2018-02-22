@@ -4,6 +4,8 @@ jenkins:
 
 jira:
   url: http://jira.difi.local
+  issues:
+    bug: 11
   statuses:
     open: 1
     inProgress: 3
