@@ -6,6 +6,8 @@ jira:
   url: http://jira.difi.local
   issues:
     bug: 11
+  fields:
+    sourceCodeRepository: customfield_12380
   statuses:
     open: 1
     inProgress: 3
