@@ -7,7 +7,7 @@ jira:
   issues:
     bug: 11
   fields:
-    sourceCodeRepository: customfield_12380
+    sourceCodeRepository: 12380
   statuses:
     open: 1
     inProgress: 3
