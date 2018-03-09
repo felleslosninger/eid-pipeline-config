@@ -38,6 +38,10 @@ crucible:
 docker:
   host: tcp://eid-jenkins02.dmz.local:2376
   registries:
+    VerificationLocal:
+      address: eid-jenkins02.dmz.local:8083
+      apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-verification
+      credentialsId: docker_registry_StagingLocal
     StagingLocal:
       address: eid-jenkins02.dmz.local:8082
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-stage
@@ -53,6 +57,8 @@ docker:
       address: docker.io/difi
       credentialsId: docker_registry_ProductionPublic
   swarms:
+    pipeline-verification:
+      registry: VerificationLocal
     pipeline:
       host: eid-jenkins02.dmz.local
       user: jenkins
