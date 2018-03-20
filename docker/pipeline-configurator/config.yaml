@@ -35,6 +35,72 @@ crucible:
   url: http://fisheye.difi.local:8060
   projectKey: CR
 
+environments:
+  pipeline-verification:
+    mavenRepository: VerificationLocal
+    dockerRegistry: VerificationLocal
+  pipeline-staging:
+    mavenRepository: StagingLocal
+    dockerRegistry: StagingLocal
+  pipeline-production:
+    mavenRepository: ProductionLocal
+    dockerSwarm: pipeline
+  pipeline:
+    mavenRepository: ProductionLocal
+    dockerSwarm: pipeline
+  eid-verification:
+    mavenRepository: VerificationLocal
+    dockerSwarm: eid-verification
+  eid-staging:
+    mavenRepository: StagingLocal
+    puppetMaster: eid-staging
+  eid-production:
+    mavenRepository: ProductionEvry
+    dockerRegistry: ProductionLocal
+  statistics-verification:
+    mavenRepository: VerificationLocal
+    dockerRegistry: VerificationLocal
+  statistics-staging:
+    mavenRepository: StagingLocal
+    dockerSwarm: statistics-staging
+  statistics-production:
+    mavenRepository: ProductionLocal
+    dockerSwarm: statistics
+  statistics:
+    mavenRepository: ProductionLocal
+    dockerSwarm: statistics
+  oidc-provider-verification:
+    mavenRepository: VerificationLocal
+    dockerRegistry: VerificationLocal
+  oidc-provider-staging:
+    mavenRepository: StagingLocal
+    dockerSwarm: oidc-provider-staging
+  oidc-provider-production:
+    mavenRepository: ProductionLocal
+    dockerSwarm: oidc-provider
+  oidc-provider:
+    mavenRepository: ProductionLocal
+    dockerSwarm: oidc-provider
+  public-delivery:
+    dockerRegistry: ProductionPublic
+  local-delivery:
+    dockerRegistry: ProductionLocal
+
+maven:
+  repositories:
+    VerificationLocal:
+      address: http://nexus:8081/repository/maven-verification
+      credentialsId: nexus
+    StagingLocal:
+      address: http://nexus:8081/repository/maven-staging
+      credentialsId: nexus
+    ProductionLocal:
+      address: http://nexus:8081/repository/maven-production
+      credentialsId: nexus
+    ProductionEvry:
+      address: http://eid-artifactory.dmz.local:8080/artifactory/libs-release-local
+      credentialsId: artifactory-publish
+
 docker:
   host: tcp://eid-jenkins02.dmz.local:2376
   registries:
