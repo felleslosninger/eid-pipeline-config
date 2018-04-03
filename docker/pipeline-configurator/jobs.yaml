@@ -65,6 +65,9 @@ jobs:
   eid-system-tests:
     repository: git@git.difi.local:eid-system-tests.git
     sshKey: ssh.git.difi.local
+  serviceprovider-api-tests:
+    repository: git@git.difi.local:serviceprovider-api-tests.git
+    sshKey: ssh.git.difi.local
   eid-pipeline-branch:
     repository: git@git.difi.local:eid-pipeline-branch.git
     sshKey: ssh.git.difi.local
