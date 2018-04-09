@@ -54,7 +54,7 @@ environments:
     mavenRepository: VerificationLocal
     dockerSwarm: eid-verification
   eid-staging:
-    mavenRepository: StagingLocal
+    mavenRepository: StagingEvry
     puppetMaster: eid-staging
   eid-production:
     mavenRepository: ProductionEvry
@@ -99,8 +99,11 @@ maven:
     ProductionLocal:
       address: http://nexus:8081/repository/maven-production
       credentialsId: nexus
-    ProductionEvry:
+    StagingEvry:
       address: http://eid-artifactory.dmz.local:8080/artifactory/libs-release-local
+      credentialsId: artifactory-publish
+    ProductionEvry:
+      address: http://eid-artifactory.dmz.local:8080/artifactory/production-evry
       credentialsId: artifactory-publish
 
 docker:
