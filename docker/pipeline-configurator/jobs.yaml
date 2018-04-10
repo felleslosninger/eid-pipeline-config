@@ -98,3 +98,6 @@ jobs:
   puppet_hiera:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_hiera
     sshKey: ssh.git.difi.local
+  idporten-testsp:
+    repository: git@git.difi.local:idporten-testsp.git
+    sshKey: ssh.git.difi.local
