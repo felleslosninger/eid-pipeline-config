@@ -101,3 +101,7 @@ jobs:
   idporten-testsp:
     repository: git@git.difi.local:idporten-testsp.git
     sshKey: ssh.git.difi.local
+  dpi-registration:
+    repository: git@git.difi.local:dpi-registration.git
+    sshKey: ssh.git.difi.local
+
