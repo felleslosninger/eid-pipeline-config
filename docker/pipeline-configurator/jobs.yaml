@@ -104,4 +104,6 @@ jobs:
   dpi-registration:
     repository: git@git.difi.local:dpi-registration.git
     sshKey: ssh.git.difi.local
-
+  eid-database:
+    repository: git@git.difi.local:eid-database.git
+    sshKey: ssh.git.difi.local
