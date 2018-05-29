@@ -112,21 +112,21 @@ docker:
     VerificationLocal:
       address: eid-jenkins02.dmz.local:8083
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-verification
-      credentialsId: docker_registry_StagingLocal
+      credentialsId: nexus
     StagingLocal:
       address: eid-jenkins02.dmz.local:8082
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-stage
-      credentialsId: docker_registry_StagingLocal
+      credentialsId: nexus
     ProductionLocal:
       address: eid-jenkins02.dmz.local:8081
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker
-      credentialsId: docker_registry_ProductionLocal
+      credentialsId: nexus
     StagingPublic:
       address: docker.io/difi
-      credentialsId: docker_registry_StagingPublic
+      credentialsId: dockerHub
     ProductionPublic:
       address: docker.io/difi
-      credentialsId: docker_registry_ProductionPublic
+      credentialsId: dockerHub
   swarms:
     pipeline-verification:
       registry: VerificationLocal
