@@ -23,6 +23,7 @@ jira:
     startVerification: 291
     cancelVerification: 401
     resumeWork: 301
+    approveCode: 321
     resumeWorkFromApprovedCode: 331
     startManualVerification: 311
     approveManualVerification: 51
