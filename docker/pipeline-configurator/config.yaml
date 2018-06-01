@@ -141,30 +141,28 @@ docker:
       user: jenkins
       sshKey: ssh.git.difi.local
       registry: StagingLocal
-    eid-staging:
-      registry: ProductionLocal
     statistics-staging:
       host: eid-test-docker01.dmz.local
       user: jenkins
       sshKey: ssh.git.difi.local
-      registry: ProductionLocal
+      registry: StagingLocal
     statistics:
       host: eid-prod-docker01.dmz.local
       user: jenkins
       sshKey: ssh.git.difi.local
       registry: ProductionLocal
     oidc-provider-verification:
-      registry: ProductionPublic
+      registry: VerificationLocal
     oidc-provider-staging:
       host: eid-test-oidc-provider.dmz.local
       user: jenkins
       sshKey: ssh.git.difi.local
-      registry: ProductionPublic
+      registry: StagingLocal
     oidc-provider:
       host: eid-oidc-provider.dmz.local
       user: jenkins
       sshKey: ssh.git.difi.local
-      registry: ProductionPublic
+      registry: ProductionLocal
     public-delivery:
       registry: ProductionPublic
     local-delivery:
