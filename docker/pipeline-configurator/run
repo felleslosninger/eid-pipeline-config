@@ -7,7 +7,7 @@ docker service update pipeline_jenkins --config-rm pipeline-jobs --config-rm pip
 echo
 echo "Pausing service 'jenkins-slave' and removing existing configuration..."
 echo
-docker service update pipeline_jenkins-slave --config-rm pipeline-config --replicas 0 || exit 1
+docker service update pipeline_jenkins-slave --config-rm pipeline-jobs --config-rm pipeline-config --replicas 0 || exit 1
 echo
 echo "Replacing configuration..."
 echo
@@ -22,4 +22,4 @@ docker service update pipeline_jenkins --config-add source=pipeline-jobs,target=
 echo
 echo "Updating service 'jenkins-slave' with new configuration and resuming..."
 echo
-docker service update pipeline_jenkins-slave --config-add source=pipeline-config,target=/config.yaml --replicas 2 || exit 1
+docker service update pipeline_jenkins-slave --config-add source=pipeline-jobs,target=/jobs.yaml --config-add source=pipeline-config,target=/config.yaml --replicas 2 || exit 1
