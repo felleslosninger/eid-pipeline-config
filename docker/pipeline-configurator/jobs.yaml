@@ -1,25 +1,25 @@
 jobs:
   jenkins-pipeline:
     repository: git@github.com:difi/jenkins-pipeline
-    sshKey: ssh.git.difi.local
+    sshKey: ssh.github.com
   jenkins-docker:
     repository: git@github.com:difi/jenkins-docker
-    sshKey: ssh.git.difi.local
+    sshKey: ssh.github.com
   kontaktregister-statistikk-klient:
     repository: git@github.com:difi/kontaktregister-statistikk-klient
-    sshKey: ssh.git.difi.local
+    sshKey: ssh.github.com
   idporten-innlogging-statistikk-klient:
     repository: git@github.com:difi/idporten-innlogging-statistikk-klient
-    sshKey: ssh.git.difi.local
+    sshKey: ssh.github.com
   idporten-oidc-client:
     repository: git@github.com:difi/idporten-klient-oidc.git
-    sshKey: ssh.git.difi.local
+    sshKey: ssh.github.com
   krr-oauth2-server:
     repository: git@git.difi.local:krr-oauth2-server
     sshKey: ssh.git.difi.local
   poc-statistics:
     repository: git@github.com:difi/poc-statistics
-    sshKey: ssh.git.difi.local
+    sshKey: ssh.github.com
   eid-oidc-provider:
     repository: git@git.difi.local:eid-oidc-provider
     sshKey: ssh.git.difi.local
