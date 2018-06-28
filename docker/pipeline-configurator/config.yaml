@@ -140,7 +140,7 @@ docker:
       host: eid-test01.dmz.local
       user: jenkins
       sshKey: ssh.git.difi.local
-      registry: StagingLocal
+      registry: VerificationLocal
     statistics-staging:
       host: eid-test-docker01.dmz.local
       user: jenkins
