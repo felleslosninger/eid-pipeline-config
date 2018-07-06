@@ -107,3 +107,6 @@ jobs:
   eid-database:
     repository: git@git.difi.local:eid-database.git
     sshKey: ssh.git.difi.local
+  mf-gateway:
+    repository: git@github.com:difi/mf-gateway.git
+    sshKey: ssh.github.com
