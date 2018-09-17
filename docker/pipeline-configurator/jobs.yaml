@@ -110,3 +110,6 @@ jobs:
   mf-gateway:
     repository: git@github.com:difi/mf-gateway.git
     sshKey: ssh.github.com
+  eid-eventlog-api:
+    repository: git@git.difi.local:eid-eventlog-api.git
+    sshKey: ssh.git.difi.local
