@@ -113,3 +113,6 @@ jobs:
   eid-eventlog-api:
     repository: git@git.difi.local:eid-eventlog-api.git
     sshKey: ssh.git.difi.local
+  minprofil:
+    repository: git@git.difi.local:minprofil.git
+    sshKey: ssh.git.difi.local
