@@ -55,6 +55,9 @@ environments:
   eid-verification:
     mavenRepository: VerificationLocal
     dockerSwarm: eid-verification
+  eid-verification2:
+    mavenRepository: VerificationLocal
+    dockerSwarm: eid-verification2
   eid-staging:
     mavenRepository: StagingEvry
     puppetMaster: eid-staging
@@ -142,6 +145,13 @@ docker:
       user: jenkins
       sshKey: ssh.git.difi.local
       registry: VerificationLocal
+      ondemand: eid-verification
+    eid-verification2:
+      host: eid-test01.dmz.local
+      user: jenkins
+      sshKey: ssh.git.difi.local
+      registry: VerificationLocal
+      ondemand: eid-verification2
     statistics-staging:
       host: eid-test-docker01.dmz.local
       user: jenkins
@@ -168,6 +178,21 @@ docker:
       registry: ProductionPublic
     local-delivery:
       registry: ProductionLocal
+  ondemand:
+      eid-verification:
+        admin: eid-atest-admin:10006
+        serviceproviderBackend: eid-atest-client-admin:10001
+        idportenOpenam: eid-atest-idp-app:10001
+        selenium: selenium:4444
+        serviceproviderAPI: eid-atest-client-admin:10004
+        database: eid-atest-db:3306
+      eid-verification2:
+        admin: idporten-admin:8080
+        serviceproviderBackend: serviceprovider-backend:8080
+        idportenOpenam: idporten-openam:8080
+        selenium: selenium:4444
+        serviceproviderAPI: serviceprovider-api:8080
+        database: db:3306
 
 puppet:
   masters:
@@ -175,6 +200,7 @@ puppet:
       host: eid-puppetmaster.dmz.local
       user: jenkins
       sshKey: ssh.git.difi.local
+
 
 ssh:
   knownHosts:
