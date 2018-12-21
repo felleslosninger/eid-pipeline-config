@@ -117,5 +117,5 @@ jobs:
     repository: git@git.difi.local:minprofil.git
     sshKey: ssh.git.difi.local
   eid-serviceprovider:
-  repository: git@git.difi.local:eid-serviceprovider.git
-  sshKey: ssh.git.difi.local
+    repository: git@git.difi.local:eid-serviceprovider.git
+    sshKey: ssh.git.difi.local
