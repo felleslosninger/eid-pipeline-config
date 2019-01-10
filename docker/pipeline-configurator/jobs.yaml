@@ -119,3 +119,6 @@ jobs:
   eid-serviceprovider:
     repository: git@git.difi.local:eid-serviceprovider.git
     sshKey: ssh.git.difi.local
+  brukerprofil-web:
+    repository: git@github.com:difi/idporten-brukerprofil
+    sshKey: ssh.github.com
