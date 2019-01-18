@@ -89,6 +89,9 @@ jobs:
   eid-docker-maintenance:
     repository: git@git.difi.local:eid-docker-maintenance.git
     sshKey: ssh.git.difi.local
+  eid-web:
+    repository: git@git.difi.local:eid-docker-maintenance.git
+    sshKey: ssh.git.difi.local
   puppet_modules:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_modules
     sshKey: ssh.git.difi.local
