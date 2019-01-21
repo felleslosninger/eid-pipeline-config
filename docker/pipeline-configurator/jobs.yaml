@@ -95,8 +95,8 @@ jobs:
   puppet_modules:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_modules
     sshKey: ssh.git.difi.local
-  puppet_modules_oidc:
-    repository: git@eid-gitlab.dmz.local:puppet/puppet_modules_oidc
+  puppet_modules_ext:
+    repository: git@eid-gitlab.dmz.local:puppet/puppet_modules_ext
     sshKey: ssh.git.difi.local
   puppet_hiera:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_hiera
