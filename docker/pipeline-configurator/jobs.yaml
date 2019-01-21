@@ -125,3 +125,6 @@ jobs:
   brukerprofil-web:
     repository: git@github.com:difi/idporten-brukerprofil
     sshKey: ssh.github.com
+  idporten-authorization-api:
+    repository: git@git.difi.local:idporten-authorization-api.git
+    sshKey: ssh.git.difi.local
