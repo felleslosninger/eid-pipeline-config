@@ -128,3 +128,6 @@ jobs:
   idporten-authorization-api:
     repository: git@git.difi.local:idporten-authorization-api.git
     sshKey: ssh.git.difi.local
+  eid-logwriter:
+    repository: git@github.com:difi/eid-logwriter
+    sshKey: ssh.github.com
