@@ -130,4 +130,7 @@ jobs:
     sshKey: ssh.git.difi.local
   eid-logwriter:
     repository: git@github.com:difi/eid-logwriter
-    sshKey: ssh.github.com    
+    sshKey: ssh.github.com 
+  krr-oppslagstjenesten-rest:
+    repository: git@github.com:difi/krr-oppslagstjenesten-rest
+    sshKey: ssh.github.com   
