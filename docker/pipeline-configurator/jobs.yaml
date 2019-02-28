@@ -14,9 +14,6 @@ jobs:
   idporten-oidc-client:
     repository: git@github.com:difi/idporten-klient-oidc.git
     sshKey: ssh.github.com
-  krr-oauth2-server:
-    repository: git@git.difi.local:krr-oauth2-server
-    sshKey: ssh.git.difi.local
   poc-statistics:
     repository: git@github.com:difi/poc-statistics
     sshKey: ssh.github.com
@@ -76,9 +73,6 @@ jobs:
     sshKey: ssh.git.difi.local
   eid-pipeline-config:
     repository: git@git.difi.local:eid-pipeline-config.git
-    sshKey: ssh.git.difi.local
-  eid-log-writer:
-    repository: git@git.difi.local:eid-log-writer.git
     sshKey: ssh.git.difi.local
   eidas:
     repository: git@git.difi.local:eidas.git
