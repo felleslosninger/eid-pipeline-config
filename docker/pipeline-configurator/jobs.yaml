@@ -48,8 +48,8 @@ jobs:
     repository: git@git.difi.local:idporten-app-dpi-reklame.git
     sshKey: ssh.git.difi.local
   idporten-minid-updater:
-    repository: git@git.difi.local:idporten-minid-updater.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:difi/idporten-minid-updater.git
+    sshKey: ssh.github.com
   idporten-pinkoder:
     repository: git@git.difi.local:idporten-pinkoder.git
     sshKey: ssh.git.difi.local
