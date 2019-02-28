@@ -128,3 +128,6 @@ jobs:
   krr-oppslagstjenesten-rest:
     repository: git@github.com:difi/krr-oppslagstjenesten-rest
     sshKey: ssh.github.com   
+  eid-serviceprovider-admin:
+    repository: git@git.difi.local:eid-serviceprovider-admin.git
+    sshKey: ssh.git.difi.local
