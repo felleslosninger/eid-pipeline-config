@@ -193,6 +193,11 @@ docker:
         selenium: selenium:4444
         serviceproviderAPI: serviceprovider-api:8080
         database: db:3306
+        idporten-oidc-provider: idporten-oidc-provider:8080
+        kontaktregister-db: kontaktregister-db:3306
+        eventlog-db: eventlog-db:3306
+        oidc-db: oidc-db:3306
+        kontaktinfo-backend: kontaktinfo-backend:8080
 
 puppet:
   masters:
