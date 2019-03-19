@@ -198,7 +198,20 @@ docker:
         eventlog-db: eventlog-db:3306
         oidc-db: oidc-db:3306
         kontaktinfo-backend: kontaktinfo-backend:8080
-
+        eventlog-api: eventlog-api:8080
+        eventlog-backend: eventlog-backend:8080
+        kontaktinfo-backend-gateway-with-postbox-mock: kontaktinfo-backend-gateway-with-postbox-mock:8080
+        pincode-backend: pincode-backend:8080
+        minidonthefly-api: minidonthefly-api:8080
+        minidonthefly-backend: minidonthefly-backend:8080
+        oppslagstjenesten-rest: oppslagstjenesten-rest:8080
+        oppslagstjenesten-soap: oppslagstjenesten-soap:8080
+        idporten-authorization-api: idporten-authorization-api:8080
+        authlevel-api: authlevel-api:8080
+        authlevel-backend: authlevel-backend:8080
+        mf-gateway: mf-gateway:8080
+        dsf-gateway: dsf-gateway:8080
+        
 puppet:
   masters:
     eid-staging:
