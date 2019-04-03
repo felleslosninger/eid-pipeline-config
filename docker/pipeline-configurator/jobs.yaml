@@ -77,6 +77,9 @@ jobs:
   eidas:
     repository: git@git.difi.local:eidas.git
     sshKey: ssh.git.difi.local
+  eidas-proxies:
+    repository: git@github.com:difi/eidas-proxies.git
+    sshKey: ssh.github.com
   eid-maintenance:
     repository: git@git.difi.local:eid-maintenance.git
     sshKey: ssh.git.difi.local
