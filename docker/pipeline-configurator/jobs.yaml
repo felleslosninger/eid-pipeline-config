@@ -134,3 +134,6 @@ jobs:
   eid-serviceprovider-admin:
     repository: git@git.difi.local:eid-serviceprovider-admin.git
     sshKey: ssh.git.difi.local
+  sp-web:
+    repository: git@github.com:difi/sp-web
+    sshKey: ssh.github.com
