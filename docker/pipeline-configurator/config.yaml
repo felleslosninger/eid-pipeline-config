@@ -93,6 +93,8 @@ environments:
     dockerRegistry: ProductionPublic
   local-delivery:
     dockerRegistry: ProductionLocal
+  public-azure-release-delivery:
+    dockerRegistry: ProductionAzureRelease
 
 maven:
   repositories:
@@ -133,6 +135,9 @@ docker:
     ProductionPublic:
       address: docker.io/difi
       credentialsId: dockerHub
+    ProductionAzureRelease:
+      address: docker.io/difiazurerelease
+      credentialsId: dockerHubAzureRelease
   swarms:
     pipeline-verification:
       registry: VerificationLocal
