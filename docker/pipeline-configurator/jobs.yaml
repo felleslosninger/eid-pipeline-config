@@ -47,6 +47,9 @@ jobs:
   idporten-bankid:
     repository: git@github.com:difi/idporten-bankid.git
     sshKey: ssh.github.com
+  idporten-bankidmobil:
+    repository: git@github.com:difi/idporten-bankidmobil.git
+    sshKey: ssh.github.com
   idporten-minid-updater:
     repository: git@github.com:difi/idporten-minid-updater.git
     sshKey: ssh.github.com
