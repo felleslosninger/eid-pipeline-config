@@ -143,3 +143,6 @@ jobs:
   sp-web:
     repository: git@github.com:difi/sp-web
     sshKey: ssh.github.com
+  maskinporten:
+    repository: git@github.com:difi/maskinporten
+    sshKey: ssh.github.com
