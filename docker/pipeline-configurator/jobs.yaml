@@ -146,3 +146,6 @@ jobs:
   maskinporten:
     repository: git@github.com:difi/maskinporten
     sshKey: ssh.github.com
+  altinn-gateway:
+    repository: git@github.com:difi/altinn-gateway
+    sshKey: ssh.github.com
