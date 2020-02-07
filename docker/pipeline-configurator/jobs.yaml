@@ -149,3 +149,6 @@ jobs:
   altinn-gateway:
     repository: git@github.com:difi/altinn-gateway
     sshKey: ssh.github.com
+  idporten-tokenexchange:
+    repository: git@github.com:difi/idporten-tokenexchange
+    sshKey: ssh.github.com
