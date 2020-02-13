@@ -41,9 +41,6 @@ jobs:
   idporten-authlevel:
     repository: git@git.difi.local:idporten-authlevel.git
     sshKey: ssh.git.difi.local
-  idporten-app-dpi-reklame:
-    repository: git@git.difi.local:idporten-app-dpi-reklame.git
-    sshKey: ssh.git.difi.local
   idporten-bankid:
     repository: git@github.com:difi/idporten-bankid.git
     sshKey: ssh.github.com
@@ -56,14 +53,8 @@ jobs:
   idporten-pinkoder:
     repository: git@git.difi.local:idporten-pinkoder.git
     sshKey: ssh.git.difi.local
-  dine-kontaktopplysninger:
-    repository: git@git.difi.local:dine-kontaktopplysninger.git
-    sshKey: ssh.git.difi.local
   dsf-gateway:
     repository: git@git.difi.local:dsf-gateway.git
-    sshKey: ssh.git.difi.local
-  eid-level1-poc:
-    repository: git@git.difi.local:eid-level1-poc.git
     sshKey: ssh.git.difi.local
   eid-system-tests:
     repository: git@git.difi.local:eid-system-tests.git
@@ -86,9 +77,6 @@ jobs:
   eidas-proxies:
     repository: git@github.com:difi/eidas-proxies.git
     sshKey: ssh.github.com
-  eid-maintenance:
-    repository: git@git.difi.local:eid-maintenance.git
-    sshKey: ssh.git.difi.local
   eid-docker-maintenance:
     repository: git@git.difi.local:eid-docker-maintenance.git
     sshKey: ssh.git.difi.local
@@ -109,9 +97,6 @@ jobs:
     sshKey: ssh.git.difi.local
   dpi-registration:
     repository: git@git.difi.local:dpi-registration.git
-    sshKey: ssh.git.difi.local
-  eid-database:
-    repository: git@git.difi.local:eid-database.git
     sshKey: ssh.git.difi.local
   mf-gateway:
     repository: git@github.com:difi/mf-gateway.git
