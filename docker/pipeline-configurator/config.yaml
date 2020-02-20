@@ -100,13 +100,13 @@ maven:
   repositories:
     VerificationLocal:
       address: http://nexus:8081/repository/maven-verification
-      credentialsId: nexus-jenkins
+      credentialsId: nexus_jenkins
     StagingLocal:
       address: http://nexus:8081/repository/maven-staging
-      credentialsId: nexus-jenkins
+      credentialsId: nexus_jenkins
     ProductionLocal:
       address: http://nexus:8081/repository/maven-production
-      credentialsId: nexus-jenkins
+      credentialsId: nexus_jenkins
     StagingEvry:
       address: http://eid-artifactory.dmz.local:8080/artifactory/libs-release-local
       credentialsId: artifactory-publish
@@ -120,15 +120,15 @@ docker:
     VerificationLocal:
       address: eid-jenkins02.dmz.local:8083
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-verification
-      credentialsId: nexus-jenkins
+      credentialsId: nexus_jenkins
     StagingLocal:
       address: eid-jenkins02.dmz.local:8082
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker-stage
-      credentialsId: nexus-jenkins
+      credentialsId: nexus_jenkins
     ProductionLocal:
       address: eid-jenkins02.dmz.local:8081
       apiUrl: http://eid-jenkins02.dmz.local:8080/repository/docker
-      credentialsId: nexus-jenkins
+      credentialsId: nexus_jenkins
     StagingPublic:
       address: docker.io/difi
       credentialsId: dockerHub
