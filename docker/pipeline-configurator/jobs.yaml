@@ -137,3 +137,6 @@ jobs:
   idporten-tokenexchange:
     repository: git@github.com:difi/idporten-tokenexchange
     sshKey: ssh.github.com
+  minidplus-authentication:
+    repository: git@github.com:difi/minidplus-authentication
+    sshKey: ssh.github.com
