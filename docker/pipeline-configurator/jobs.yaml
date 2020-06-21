@@ -140,3 +140,6 @@ jobs:
   minidplus-authentication:
     repository: git@github.com:difi/minidplus-authentication
     sshKey: ssh.github.com
+  jwt-grant-generator:
+    repository: git@github.com:difi/jwt-grant-performance
+    sshKey: ssh.github.com
