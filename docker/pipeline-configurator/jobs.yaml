@@ -143,3 +143,6 @@ jobs:
   jwt-grant-generator:
     repository: git@github.com:difi/jwt-grant-performance
     sshKey: ssh.github.com
+  minid-passport-admin:
+    repository: git@github.com:difi/minid-passport-admin
+    sshKey: ssh.github.com
