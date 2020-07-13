@@ -146,3 +146,6 @@ jobs:
   minid-passport-admin:
     repository: git@github.com:difi/minid-passport-admin
     sshKey: ssh.github.com
+  idporten-bekreft-kontaktinfo:
+    repository: git@github.com:difi/idporten-bekreft-kontaktinfo
+    sshKey: ssh.github.com
