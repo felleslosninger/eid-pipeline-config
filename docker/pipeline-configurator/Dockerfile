@@ -1,4 +1,4 @@
-FROM docker:17.12.0-ce
+FROM docker:19.03.12
 
 COPY run /usr/local/bin/
 COPY config.yaml /config.yaml

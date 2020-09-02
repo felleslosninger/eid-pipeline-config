@@ -1,6 +1,6 @@
 jenkins:
   url: http://eid-jenkins02.dmz.local
-  adminAddress: Jenkins &lt;utvtest@difi.no&gt;
+  adminAddress: Jenkins &lt;utvtest@digdir.no&gt;
 
 jira:
   url: http://jira.difi.local
@@ -28,10 +28,11 @@ jira:
     resumeWorkFromApprovedCode: 331
     startManualVerification: 311
     approveManualVerification: 51
-    failManualVerification: 61
+    failManualVerification: 431
     failStagingDeploy: 451
     retryManualVerificationFromSuccess: 441
     retryManualVerificationFromFailure: 421
+    closeWithoutTesting: 461
     closeWithoutStaging: 361
     close: 341
 
@@ -242,4 +243,4 @@ ssh:
 
 git:
   userName: Jenkins
-  userEmail: jenkins@difi.no
+  userEmail: eid-jenkins@digdir.no
