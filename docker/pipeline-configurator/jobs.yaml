@@ -149,3 +149,6 @@ jobs:
   idporten-bekreft-kontaktinfo:
     repository: git@github.com:difi/idporten-bekreft-kontaktinfo
     sshKey: ssh.github.com
+  eid-c2id-selector:
+    repository: git@github.com:difi/eid-c2id-selector
+    sshKey: ssh.github.com
