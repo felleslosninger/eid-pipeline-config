@@ -152,3 +152,6 @@ jobs:
   eid-c2id-selector:
     repository: git@github.com:difi/eid-c2id-selector
     sshKey: ssh.github.com
+  eid-c2id-config:
+    repository: git@github.com:difi/eid-c2id-config
+    sshKey: ssh.github.com    
