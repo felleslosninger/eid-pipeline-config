@@ -158,3 +158,6 @@ jobs:
   minid-notification-server:
     repository: git@github.com:difi/minid-notification-server
     sshKey: ssh.github.com
+  idporten-oidc-spi:
+    repository: git@github.com:difi/idporten-oidc-spi
+    sshKey: ssh.github.com
