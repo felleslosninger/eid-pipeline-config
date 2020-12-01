@@ -218,6 +218,7 @@ docker:
         authlevel-backend: authlevel-backend:8080
         mf-gateway: mf-gateway:8080
         dsf-gateway: dsf-gateway:8080
+        idporten-oidc-client: idporten-oidc-client:8080
         
 puppet:
   masters:
