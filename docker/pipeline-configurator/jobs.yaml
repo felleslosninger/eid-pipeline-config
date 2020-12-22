@@ -63,8 +63,8 @@ jobs:
     repository: git@git.difi.local:serviceprovider-api-tests.git
     sshKey: ssh.git.difi.local
   eid-pipeline-branch:
-    repository: git@git.difi.local:eid-pipeline-branch.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-pipeline-branch.git
+    sshKey: ssh.eid-build.github.com
   eid-pipeline:
     repository: git@git.difi.local:eid-pipeline.git
     sshKey: ssh.git.difi.local
@@ -85,9 +85,6 @@ jobs:
     sshKey: ssh.git.difi.local
   puppet_modules:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_modules
-    sshKey: ssh.git.difi.local
-  puppet_modules_ext:
-    repository: git@eid-gitlab.dmz.local:puppet/puppet_modules_ext
     sshKey: ssh.git.difi.local
   puppet_hiera:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_hiera
@@ -157,7 +154,4 @@ jobs:
     sshKey: ssh.github.com
   minid-notification-server:
     repository: git@github.com:difi/minid-notification-server
-    sshKey: ssh.github.com
-  idporten-oidc-sdk:
-    repository: git@github.com:difi/idporten-oidc-sdk
     sshKey: ssh.github.com
