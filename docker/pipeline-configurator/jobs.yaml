@@ -153,5 +153,5 @@ jobs:
     repository: git@github.com:difi/eid-c2id-config
     sshKey: ssh.github.com
   minid-notification-server:
-    repository: git@github.com:difi/minid-notification-server
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/minid-notification-server
+    sshKey: ssh.eid-build.github.com 
