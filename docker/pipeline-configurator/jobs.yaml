@@ -154,4 +154,7 @@ jobs:
     sshKey: ssh.github.com
   minid-notification-server:
     repository: git@github.com:felleslosninger/minid-notification-server
-    sshKey: ssh.eid-build.github.com 
+    sshKey: ssh.eid-build.github.com
+  minid-backend-service:
+    repository: git@github.com:felleslosninger/minid-backend-service
+    sshKey: ssh.eid-build.github.com
