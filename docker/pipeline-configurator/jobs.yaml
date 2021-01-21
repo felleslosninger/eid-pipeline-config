@@ -158,3 +158,6 @@ jobs:
   minid-backend-service:
     repository: git@github.com:felleslosninger/minid-backend-service
     sshKey: ssh.eid-build.github.com
+  minid-authentication:
+    repository: git@github.com:felleslosninger/minid-authentication
+    sshKey: ssh.eid-build.github.com
