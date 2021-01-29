@@ -161,3 +161,19 @@ jobs:
   minid-authentication:
     repository: git@github.com:felleslosninger/minid-authentication
     sshKey: ssh.eid-build.github.com
+  minprofil:
+    repository: git@github.com:felleslosninger/minprofil
+    sshKey: ssh.eid-build.github.com
+  minid-on-the-fly:
+    repository: git@github.com:felleslosninger/minid-on-the-fly
+    sshKey: ssh.eid-build.github.com
+  krr:
+    repository: git@github.com:felleslosninger/krr
+    sshKey: ssh.eid-build.github.com
+  eidas-node:
+    repository: git@github.com:felleslosninger/eidas-node
+    sshKey: ssh.eid-build.github.com
+  idporten-admin:
+    repository: git@github.com:felleslosninger/idporten-admin
+    sshKey: ssh.eid-build.github.com    
+
