@@ -20,23 +20,14 @@ jobs:
   eid-oidc-provider:
     repository: git@git.difi.local:eid-oidc-provider
     sshKey: ssh.git.difi.local
-  minid-on-the-fly:
-    repository: git@git.difi.local:minid-on-the-fly
-    sshKey: ssh.git.difi.local
   eid-common-resilience:
     repository: git@git.difi.local:eid-common-resilience.git
     sshKey: ssh.git.difi.local
   eid-common:
     repository: git@git.difi.local:eid-common.git
     sshKey: ssh.git.difi.local
-  krr:
-    repository: git@git.difi.local:krr.git
-    sshKey: ssh.git.difi.local
   idporten:
     repository: git@git.difi.local:idporten.git
-    sshKey: ssh.git.difi.local
-  idporten-admin:
-    repository: git@git.difi.local:idporten-admin.git
     sshKey: ssh.git.difi.local
   idporten-authlevel:
     repository: git@git.difi.local:idporten-authlevel.git
@@ -71,9 +62,6 @@ jobs:
   eid-pipeline-config:
     repository: git@git.difi.local:eid-pipeline-config.git
     sshKey: ssh.git.difi.local
-  eidas:
-    repository: git@git.difi.local:eidas.git
-    sshKey: ssh.git.difi.local
   eidas-proxies:
     repository: git@github.com:difi/eidas-proxies.git
     sshKey: ssh.github.com
@@ -100,9 +88,6 @@ jobs:
     sshKey: ssh.github.com
   eid-eventlog-api:
     repository: git@git.difi.local:eid-eventlog-api.git
-    sshKey: ssh.git.difi.local
-  minprofil:
-    repository: git@git.difi.local:minprofil.git
     sshKey: ssh.git.difi.local
   eid-serviceprovider:
     repository: git@git.difi.local:eid-serviceprovider.git
@@ -161,3 +146,19 @@ jobs:
   minid-authentication:
     repository: git@github.com:felleslosninger/minid-authentication
     sshKey: ssh.eid-build.github.com
+  minprofil:
+    repository: git@github.com:felleslosninger/minprofil
+    sshKey: ssh.eid-build.github.com
+  minid-on-the-fly:
+    repository: git@github.com:felleslosninger/minid-on-the-fly
+    sshKey: ssh.eid-build.github.com
+  krr:
+    repository: git@github.com:felleslosninger/krr
+    sshKey: ssh.eid-build.github.com
+  eidas-node:
+    repository: git@github.com:felleslosninger/eidas-node
+    sshKey: ssh.eid-build.github.com
+  idporten-admin:
+    repository: git@github.com:felleslosninger/idporten-admin
+    sshKey: ssh.eid-build.github.com    
+
