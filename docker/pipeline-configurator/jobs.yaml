@@ -155,6 +155,9 @@ jobs:
   krr:
     repository: git@github.com:felleslosninger/krr
     sshKey: ssh.eid-build.github.com
+  krr-oppslagstjenesten-cli-app:
+    repository: git@github.com:felleslosninger/krr-oppslagstjenesten-cli-app
+    sshKey: ssh.eid-build.github.com
   eidas-node:
     repository: git@github.com:felleslosninger/eidas-node
     sshKey: ssh.eid-build.github.com
