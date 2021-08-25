@@ -6,17 +6,17 @@ jobs:
     repository: git@github.com:difi/jenkins-docker
     sshKey: ssh.github.com
   kontaktregister-statistikk-klient:
-    repository: git@github.com:difi/kontaktregister-statistikk-klient
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/kontaktregister-statistikk-klient
+    sshKey: ssh.eid-build.github.com
   idporten-innlogging-statistikk-klient:
-    repository: git@github.com:difi/idporten-innlogging-statistikk-klient
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/idporten-innlogging-statistikk-klient
+    sshKey: ssh.eid-build.github.com
   idporten-oidc-client:
-    repository: git@github.com:difi/idporten-klient-oidc.git
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/idporten-klient-oidc.git
+    sshKey: ssh.eid-build.github.com
   poc-statistics:
-    repository: git@github.com:difi/poc-statistics
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/poc-statistics
+    sshKey: ssh.eid-build.github.com
   eid-oidc-provider:
     repository: git@git.difi.local:eid-oidc-provider
     sshKey: ssh.git.difi.local
@@ -32,15 +32,9 @@ jobs:
   idporten-authlevel:
     repository: git@git.difi.local:idporten-authlevel.git
     sshKey: ssh.git.difi.local
-  idporten-bankid:
-    repository: git@github.com:difi/idporten-bankid.git
-    sshKey: ssh.github.com
-  idporten-bankidmobil:
-    repository: git@github.com:difi/idporten-bankidmobil.git
-    sshKey: ssh.github.com
-  idporten-minid-updater:
-    repository: git@github.com:difi/idporten-minid-updater.git
-    sshKey: ssh.github.com
+  minid-updater:
+    repository: git@github.com:felleslosninger/minid-updater.git
+    sshKey: ssh.eid-build.github.com
   idporten-pinkoder:
     repository: git@git.difi.local:idporten-pinkoder.git
     sshKey: ssh.git.difi.local
@@ -63,8 +57,8 @@ jobs:
     repository: git@git.difi.local:eid-pipeline-config.git
     sshKey: ssh.git.difi.local
   eidas-proxies:
-    repository: git@github.com:difi/eidas-proxies.git
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/eidas-proxies.git
+    sshKey: ssh.eid-build.github.com
   eid-docker-maintenance:
     repository: git@git.difi.local:eid-docker-maintenance.git
     sshKey: ssh.git.difi.local
@@ -84,8 +78,8 @@ jobs:
     repository: git@git.difi.local:dpi-registration.git
     sshKey: ssh.git.difi.local
   mf-gateway:
-    repository: git@github.com:difi/mf-gateway.git
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/mf-gateway.git
+    sshKey: ssh.eid-build.github.com
   eid-eventlog-api:
     repository: git@git.difi.local:eid-eventlog-api.git
     sshKey: ssh.git.difi.local
@@ -93,17 +87,17 @@ jobs:
     repository: git@git.difi.local:eid-serviceprovider.git
     sshKey: ssh.git.difi.local
   brukerprofil-web:
-    repository: git@github.com:difi/idporten-brukerprofil
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/idporten-brukerprofil
+    sshKey: ssh.eid-build.github.com
   idporten-authorization-api:
     repository: git@git.difi.local:idporten-authorization-api.git
     sshKey: ssh.git.difi.local
   eid-logwriter:
-    repository: git@github.com:difi/eid-logwriter
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/eid-logwriter
+    sshKey: ssh.eid-build.github.com
   krr-oppslagstjenesten-rest:
-    repository: git@github.com:difi/krr-oppslagstjenesten-rest
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/krr-oppslagstjenesten-rest
+    sshKey: ssh.eid-build.github.com
   eid-serviceprovider-admin:
     repository: git@git.difi.local:eid-serviceprovider-admin.git
     sshKey: ssh.git.difi.local
@@ -114,29 +108,26 @@ jobs:
     repository: git@github.com:difi/maskinporten
     sshKey: ssh.github.com
   altinn-gateway:
-    repository: git@github.com:difi/altinn-gateway
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/altinn-gateway
+    sshKey: ssh.eid-build.github.com
   idporten-tokenexchange:
-    repository: git@github.com:difi/idporten-tokenexchange
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/idporten-tokenexchange
+    sshKey: ssh.eid-build.github.com
   minidplus-authentication:
-    repository: git@github.com:difi/minidplus-authentication
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/minidplus-authentication
+    sshKey: ssh.eid-build.github.com
   jwt-grant-generator:
-    repository: git@github.com:difi/jwt-grant-performance
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/jwt-grant-performance
+    sshKey: ssh.eid-build.github.com
   minid-passport-admin:
-    repository: git@github.com:difi/minid-passport-admin
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/minid-passport-admin
+    sshKey: ssh.eid-build.github.com
   idporten-bekreft-kontaktinfo:
-    repository: git@github.com:difi/idporten-bekreft-kontaktinfo
-    sshKey: ssh.github.com
-  eid-c2id-selector:
-    repository: git@github.com:difi/eid-c2id-selector
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/idporten-bekreft-kontaktinfo
+    sshKey: ssh.eid-build.github.com
   eid-c2id-config:
-    repository: git@github.com:difi/eid-c2id-config
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/eid-c2id-config
+    sshKey: ssh.eid-build.github.com
   minid-notification-server:
     repository: git@github.com:felleslosninger/minid-notification-server
     sshKey: ssh.eid-build.github.com
