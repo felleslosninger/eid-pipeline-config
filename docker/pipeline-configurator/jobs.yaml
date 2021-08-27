@@ -42,26 +42,26 @@ jobs:
     repository: git@git.difi.local:dsf-gateway.git
     sshKey: ssh.git.difi.local
   eid-system-tests:
-    repository: git@git.difi.local:eid-system-tests.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-system-tests.git
+    sshKey: ssh.eid-build.github.com
   serviceprovider-api-tests:
-    repository: git@git.difi.local:serviceprovider-api-tests.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/serviceprovider-api-tests.git
+    sshKey: ssh.eid-build.github.com
   eid-pipeline-branch:
     repository: git@github.com:felleslosninger/eid-pipeline-branch.git
     sshKey: ssh.eid-build.github.com
-  eid-pipeline:
-    repository: git@git.difi.local:eid-pipeline.git
-    sshKey: ssh.git.difi.local
   eid-pipeline-config:
+    repository: git@github.com:felleslosninger/eid-pipeline-config.git
+    sshKey: ssh.eid-build.github.com
+  expired-eid-pipeline-config:
     repository: git@git.difi.local:eid-pipeline-config.git
     sshKey: ssh.git.difi.local
   eidas-proxies:
     repository: git@github.com:felleslosninger/eidas-proxies.git
     sshKey: ssh.eid-build.github.com
   eid-docker-maintenance:
-    repository: git@git.difi.local:eid-docker-maintenance.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-docker-maintenance.git
+    sshKey: ssh.eid-build.github.com
   eid-web:
     repository: git@github.com:felleslosninger/eid-web.git
     sshKey: ssh.eid-build.github.com
