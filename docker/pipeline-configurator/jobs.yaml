@@ -38,9 +38,9 @@ jobs:
   minid-pinkoder:
     repository: git@github.com:felleslosninger/minid-pinkoder.git
     sshKey: ssh.eid-build.github.com
-  dsf-gateway:
-    repository: git@git.difi.local:dsf-gateway.git
-    sshKey: ssh.git.difi.local
+  eid-dsf-gateway:
+    repository: git@github.com:felleslosninger/eid-dsf-gateway.git
+    sshKey: ssh.eid-build.github.com
   eid-system-tests:
     repository: git@github.com:felleslosninger/eid-system-tests.git
     sshKey: ssh.eid-build.github.com
@@ -102,8 +102,8 @@ jobs:
     repository: git@github.com:felleslosninger/eid-serviceprovider-admin.git
     sshKey: ssh.eid-build.github.com
   sp-web:
-    repository: git@github.com:difi/sp-web
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/sp-web
+    sshKey: ssh.eid-build.github.com
   maskinporten:
     repository: git@github.com:felleslosninger/maskinporten
     sshKey: ssh.eid-build.github.com
