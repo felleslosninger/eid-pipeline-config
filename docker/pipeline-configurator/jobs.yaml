@@ -17,27 +17,27 @@ jobs:
   poc-statistics:
     repository: git@github.com:felleslosninger/poc-statistics
     sshKey: ssh.eid-build.github.com
-  eid-oidc-provider:
-    repository: git@git.difi.local:eid-oidc-provider
-    sshKey: ssh.git.difi.local
+  idporten-oidc-provider:
+    repository: git@github.com:felleslosninger/idporten-oidc-provider
+    sshKey: ssh.eid-build.github.com
   eid-common-resilience:
-    repository: git@git.difi.local:eid-common-resilience.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-common-resilience.git
+    sshKey: ssh.eid-build.github.com
   eid-common:
-    repository: git@git.difi.local:eid-common.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-common.git
+    sshKey: ssh.eid-build.github.com
   idporten:
     repository: git@git.difi.local:idporten.git
     sshKey: ssh.git.difi.local
   idporten-authlevel:
-    repository: git@git.difi.local:idporten-authlevel.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/idporten-authlevel.git
+    sshKey: ssh.eid-build.github.com
   minid-updater:
     repository: git@github.com:felleslosninger/minid-updater.git
     sshKey: ssh.eid-build.github.com
-  idporten-pinkoder:
-    repository: git@git.difi.local:idporten-pinkoder.git
-    sshKey: ssh.git.difi.local
+  minid-pinkoder:
+    repository: git@github.com:felleslosninger/minid-pinkoder.git
+    sshKey: ssh.eid-build.github.com
   dsf-gateway:
     repository: git@git.difi.local:dsf-gateway.git
     sshKey: ssh.git.difi.local
@@ -63,35 +63,35 @@ jobs:
     repository: git@git.difi.local:eid-docker-maintenance.git
     sshKey: ssh.git.difi.local
   eid-web:
-    repository: git@git.difi.local:eid-web.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-web.git
+    sshKey: ssh.eid-build.github.com
   puppet_modules:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_modules
     sshKey: ssh.git.difi.local
   puppet_hiera:
     repository: git@eid-gitlab.dmz.local:puppet/puppet_hiera
     sshKey: ssh.git.difi.local
-  idporten-testsp:
-    repository: git@git.difi.local:idporten-testsp.git
-    sshKey: ssh.git.difi.local
+  idporten-saml-testsp:
+    repository: git@github.com:felleslosninger/idporten-saml-testsp.git
+    sshKey: ssh.eid-build.github.com
   dpi-registration:
-    repository: git@git.difi.local:dpi-registration.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/dpi-registration.git
+    sshKey: ssh.eid-build.github.com
   mf-gateway:
     repository: git@github.com:felleslosninger/mf-gateway.git
     sshKey: ssh.eid-build.github.com
   eid-eventlog-api:
-    repository: git@git.difi.local:eid-eventlog-api.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-eventlog-api.git
+    sshKey: ssh.eid-build.github.com
   eid-serviceprovider:
-    repository: git@git.difi.local:eid-serviceprovider.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-serviceprovider.git
+    sshKey: ssh.eid-build.github.com
   brukerprofil-web:
     repository: git@github.com:felleslosninger/idporten-brukerprofil
     sshKey: ssh.eid-build.github.com
   idporten-authorization-api:
-    repository: git@git.difi.local:idporten-authorization-api.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/idporten-authorization-api.git
+    sshKey: ssh.eid-build.github.com
   eid-logwriter:
     repository: git@github.com:felleslosninger/eid-logwriter
     sshKey: ssh.eid-build.github.com
@@ -99,14 +99,14 @@ jobs:
     repository: git@github.com:felleslosninger/krr-oppslagstjenesten-rest
     sshKey: ssh.eid-build.github.com
   eid-serviceprovider-admin:
-    repository: git@git.difi.local:eid-serviceprovider-admin.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/eid-serviceprovider-admin.git
+    sshKey: ssh.eid-build.github.com
   sp-web:
     repository: git@github.com:difi/sp-web
     sshKey: ssh.github.com
   maskinporten:
-    repository: git@github.com:difi/maskinporten
-    sshKey: ssh.github.com
+    repository: git@github.com:felleslosninger/maskinporten
+    sshKey: ssh.eid-build.github.com
   altinn-gateway:
     repository: git@github.com:felleslosninger/altinn-gateway
     sshKey: ssh.eid-build.github.com
