@@ -27,8 +27,8 @@ jobs:
     repository: git@github.com:felleslosninger/eid-common.git
     sshKey: ssh.eid-build.github.com
   idporten:
-    repository: git@git.difi.local:idporten.git
-    sshKey: ssh.git.difi.local
+    repository: git@github.com:felleslosninger/idporten-openam.git
+    sshKey: ssh.eid-build.github.com
   idporten-authlevel:
     repository: git@github.com:felleslosninger/idporten-authlevel.git
     sshKey: ssh.eid-build.github.com
@@ -53,9 +53,6 @@ jobs:
   eid-pipeline-config:
     repository: git@github.com:felleslosninger/eid-pipeline-config.git
     sshKey: ssh.eid-build.github.com
-  expired-eid-pipeline-config:
-    repository: git@git.difi.local:eid-pipeline-config.git
-    sshKey: ssh.git.difi.local
   eidas-proxies:
     repository: git@github.com:felleslosninger/eidas-proxies.git
     sshKey: ssh.eid-build.github.com
