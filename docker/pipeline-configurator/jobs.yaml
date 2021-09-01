@@ -1,10 +1,10 @@
 jobs:
-  jenkins-pipeline:
-    repository: git@github.com:difi/jenkins-pipeline
-    sshKey: ssh.github.com
-  jenkins-docker:
-    repository: git@github.com:difi/jenkins-docker
-    sshKey: ssh.github.com
+  eid-jenkins-pipeline:
+    repository: git@github.com:felleslosninger/eid-jenkins-pipeline
+    sshKey: ssh.eid-build.github.com
+  eid-jenkins-docker:
+    repository: git@github.com:felleslosninger/eid-jenkins-docker
+    sshKey: ssh.eid-build.github.com
   kontaktregister-statistikk-klient:
     repository: git@github.com:felleslosninger/kontaktregister-statistikk-klient
     sshKey: ssh.eid-build.github.com
