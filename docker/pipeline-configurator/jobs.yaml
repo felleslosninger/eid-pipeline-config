@@ -152,4 +152,7 @@ jobs:
   idporten-admin:
     repository: git@github.com:felleslosninger/idporten-admin
     sshKey: ssh.eid-build.github.com    
+  eventlog-dispatcher:
+    repository: git@github.com:felleslosninger/eventlog-dispatcher
+    sshKey: ssh.eid-build.github.com
 
