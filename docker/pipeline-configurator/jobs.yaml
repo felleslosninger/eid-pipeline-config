@@ -1,6 +1,6 @@
 jobs:
-  eid-jenkin-s-pipeline:
-    repository: git@github.com:felleslosninger/eid-jenkin-s-pipeline
+  eid-jenkins-pipeline:
+    repository: git@github.com:felleslosninger/eid-jenkins-pipeline
     sshKey: ssh.eid-build.github.com
   eid-jenkins-docker:
     repository: git@github.com:felleslosninger/eid-jenkins-docker
